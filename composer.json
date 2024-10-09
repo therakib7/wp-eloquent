@@ -1,0 +1,28 @@
+{
+  "name": "therakib7/wp-eloquent",
+  "description": "Eloquent ORM for WordPress",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Rakibul Hasan",
+            "email": "therakib7@gmail.com"
+        }
+    ],
+  "autoload": {
+      "psr-4": {
+          "Therakib7\\WPEloquent\\": "src/"
+      }
+  },
+  "require": {
+      "php": ">=7.4"
+  },
+  "repositories": [
+      {
+          "type": "vcs",
+          "url": "https://github.com/therakib7/wp-eloquent"
+      }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
